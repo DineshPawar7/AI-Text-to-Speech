@@ -51,7 +51,7 @@ const SampleTTS = () => {
                 placeholder="Type your text here..."
                 value={text}
                 onChange={handleTextChange}
-                maxLength={100} // Set maxLength for the textarea
+                maxLength={1000} // Set maxLength for the textarea
             />
             <div className="word-count">{wordCount}/{MAX_WORDS}</div>
             <div className="button-container">

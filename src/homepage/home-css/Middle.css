@@ -1,0 +1,92 @@
+
+  .Middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 2rem 4rem 4rem;
+  }
+  
+  .Middle-content {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .Middle-heading {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  .Middle-description {
+    font-size: 1.1rem;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .Middle-button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(163, 163, 163);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .pointer-icon{
+    font-size: 20px;
+    
+  }
+  
+  .Middle-button:hover {
+    background-color: #E6C767;
+  }
+  
+  .Middle-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .Middle-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 4rem;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .Middle-image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .Middle-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .Middle-content,
+    .Middle-image-container {
+      padding: 0.5rem;
+    }
+  
+    .Middle-heading {
+      font-size: 2rem;
+    }
+  
+    .Middle-description {
+      font-size: 1rem;
+    }
+  
+    .Middle-button {
+      font-size: 0.9rem;
+    }
+  }
+  

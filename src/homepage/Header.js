@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
+import HomeRobot from '../assets/HomeRobot.png';
 import './home-css/Header.css';
 
 const Header = () => {
   return (
     <div>
       <header className="header">
-        <h1 className="logo">DinoSpeech</h1>
+      <img src={logo} className="logo" alt="Logo" />
         <nav className="nav">
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -18,6 +20,7 @@ const Header = () => {
         </nav>
       </header>
       <div className="home-section">
+      <img src={HomeRobot} className="home-robot" alt="Logo" />
         <h1 className="main-heading">Transform text into natural-sounding speech effortlessly</h1>
         <p className="section-description">
           Create compelling audio content in seconds...
